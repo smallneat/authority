@@ -1,6 +1,6 @@
 {
-    "name": "machuga/authority",
-    "description": "A simple and flexible authorization system for PHP",
+    "name": "smallneat/authority",
+    "description": "A simple and flexible authorization system for PHP, forked from machuga/authority",
     "license": "mit",
     "authors": [
         {
@@ -14,6 +14,10 @@
         {
             "name": "Jesse O'Brien",
             "email": "jesse@jesse-obrien.ca"
+        },
+        {
+          "name": "Rik Heywood",
+          "email": "hello@smallneatbox.co.uk"
         }
     ],
     "require": {
@@ -26,13 +30,8 @@
     },
     "minimum-stability": "stable",
     "autoload": {
-        "psr-0": {
+        "psr-4": {
             "Authority": "src/"
-        }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "2.1.x-dev"
         }
     }
 }

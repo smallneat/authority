@@ -2,8 +2,7 @@
 
 A simple and flexible activity/resource based authorization system for PHP
 
-[![Build Status](https://travis-ci.org/machuga/authority.png?branch=develop)](https://travis-ci.org/machuga/authority)
-
+Forked from machuga/authority
 
 ## Installation via Composer
 
@@ -11,7 +10,7 @@ Add Authority to your composer.json file to require Authority
 
 ```
 "require" : {
-    "machuga/authority" : "dev-master"
+    "smallneat/authority" : "dev-master"
 } 
 ```
 
@@ -121,11 +120,3 @@ If we run the above script, we will see:
     I can read about another user!
     I can delete my own user, so you see me :)
     
-
-## Intermediate Usage
-
-Coming soon
-
-## Advanced Usage
-
-Coming soon
